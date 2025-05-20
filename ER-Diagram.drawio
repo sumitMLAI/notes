@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
+  <diagram name="Page-1" id="cHgoZyPfbgOUgSAcZYk1">
+    <mxGraphModel dx="786" dy="373" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="S6zabAEWOe_hGxhMnE3G-2" value="organization_table" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="170" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="S6zabAEWOe_hGxhMnE3G-3" value="1)o.n&lt;div&gt;2)0.id&lt;br&gt;&lt;div&gt;3)o.url&lt;/div&gt;&lt;div&gt;4)0.logo&lt;/div&gt;&lt;div&gt;5)0.address&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="S6zabAEWOe_hGxhMnE3G-2">
+          <mxGeometry x="-5" y="25" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="S6zabAEWOe_hGxhMnE3G-5" value="tenant_admin" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="20" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="S6zabAEWOe_hGxhMnE3G-6" value="1)user_tyrpe&lt;div&gt;2)tenant_id&lt;br&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;3)0.id&lt;/div&gt;&lt;div&gt;&lt;div&gt;4)passowrd&lt;/div&gt;&lt;div&gt;5)email&lt;/div&gt;&lt;div&gt;6)contact&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="S6zabAEWOe_hGxhMnE3G-5">
+          <mxGeometry x="-5" y="20" width="90" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="S6zabAEWOe_hGxhMnE3G-7" value="rules_input_table" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="20" width="170" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="S6zabAEWOe_hGxhMnE3G-8" value="&lt;br&gt;&lt;div&gt;1)tenant_id&lt;br&gt;&lt;div&gt;2)inputz_field&lt;/div&gt;&lt;div&gt;3)rule_id&lt;/div&gt;&lt;div&gt;4)rule_title&lt;/div&gt;&lt;div&gt;5)condition&lt;/div&gt;&lt;div&gt;6)rule_weight&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="S6zabAEWOe_hGxhMnE3G-7">
+          <mxGeometry x="5" y="25" width="100" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="S6zabAEWOe_hGxhMnE3G-14" value="transaction_rules_trigger" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="170" width="170" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="S6zabAEWOe_hGxhMnE3G-15" value="1)transaction_id&lt;div&gt;2)tenant_id&lt;br&gt;&lt;div&gt;3)inputz_field&lt;/div&gt;&lt;div&gt;4)rule_id&lt;/div&gt;&lt;div&gt;5)rule_title&lt;/div&gt;&lt;div&gt;6)rule_trigger&lt;/div&gt;&lt;div&gt;7)risk_score&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="S6zabAEWOe_hGxhMnE3G-14">
+          <mxGeometry y="20" width="110" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="S6zabAEWOe_hGxhMnE3G-16" value="case_management" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="180" width="170" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="S6zabAEWOe_hGxhMnE3G-17" value="1)case No&lt;div&gt;2)priority&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3)rule_id&lt;/span&gt;&lt;div&gt;4)assign_to&lt;/div&gt;&lt;div&gt;5)priority_type&lt;/div&gt;&lt;div&gt;6)transaction_date&lt;/div&gt;&lt;div&gt;7)from_trasaction&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="S6zabAEWOe_hGxhMnE3G-16">
+          <mxGeometry x="-5" y="20" width="120" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
